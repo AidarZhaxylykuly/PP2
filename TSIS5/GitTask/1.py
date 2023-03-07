@@ -1,5 +1,8 @@
-import re
+import re, row
 
-st='qwaesdfabbb'
-x=re.search(r'.*a+bb(b?).*', st)
-print(x)
+st=row.y
+x=re.search(r'.*a+b*.*', st)
+if x!=-1:
+    print('Exist')
+else:
+    print('None')
