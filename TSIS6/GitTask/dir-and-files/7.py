@@ -1,0 +1,5 @@
+f=open('samp.txt', 'r')
+k=open('samp2.txt', 'w')
+k.write(f.read())
+f.close()
+k.close()
